@@ -1,0 +1,232 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"0.8.3"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.26.0"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉clojure-noob.core꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉clojure-noob.core꞉>
+#'clojure-noob.core/numbers
+clj꞉clojure-noob.core꞉>
+{:result 3, :id 1}
+clj꞉clojure-noob.core꞉>
+{:result 3, :id 1}
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+2
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+#'clojure-noob.core/parse-int
+clj꞉clojure-noob.core꞉>
+123
+clj꞉clojure-noob.core꞉>
+IInvertible
+clj꞉clojure-noob.core꞉>
+clojure.lang.PersistentVector
+clj꞉clojure-noob.core꞉>
+IInvertible
+clj꞉clojure-noob.core꞉>
+; Syntax error compiling at (core.clj:460:1).
+; Unable to resolve symbol: string in this context
+clj꞉clojure-noob.core꞉>
+; Syntax error (ClassNotFoundException) compiling at (core.clj:460:1).
+; clojure.string
+clj꞉clojure-noob.core꞉>
+; Syntax error (ClassNotFoundException) compiling at (core.clj:464:1).
+; clojure.core.List
+clj꞉clojure-noob.core꞉>
+; Syntax error (ClassNotFoundException) compiling at (core.clj:460:1).
+; clojure.core.string
+clj꞉clojure-noob.core꞉>
+; Syntax error (ClassNotFoundException) compiling at (core.clj:460:1).
+; clojure.core.String
+clj꞉clojure-noob.core꞉>
+; Syntax error (ClassNotFoundException) compiling at (core.clj:464:1).
+; clojure.core.List
+clj꞉clojure-noob.core꞉>
+java.lang.String
+clj꞉clojure-noob.core꞉>
+clojure.lang.PersistentList
+clj꞉clojure-noob.core꞉>
+IInvertible
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+; Syntax error (ClassNotFoundException) compiling at (core.clj:464:1).
+; clojure.lang.PeristitentList
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+[4 3 2 1]
+clj꞉clojure-noob.core꞉>
+(4 3 2 1)
+clj꞉clojure-noob.core꞉>
+"naitejnaj"
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+nil
+clj꞉clojure-noob.core꞉>
+"anitejnaj"
+clj꞉clojure-noob.core꞉>
+(4 3 2 1)
+clj꞉clojure-noob.core꞉>
+[4 3 2 1]
+clj꞉clojure-noob.core꞉>
+clojure_noob.core.User
+clj꞉clojure-noob.core꞉>
+#'clojure-noob.core/person
+clj꞉clojure-noob.core꞉>
+; Execution error (ClassCastException) at clojure-noob.core/eval7749 (form-init16250522405046440048.clj:496).
+; class clojure_noob.core.User cannot be cast to class clojure.lang.IFn (clojure_noob.core.User is in unnamed module of loader clojure.lang.DynamicClassLoader @5a94c64f; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉clojure-noob.core꞉>
+"Marko"
+clj꞉clojure-noob.core꞉>
+"Marko"
+clj꞉clojure-noob.core꞉>
+clojure_noob.core.User
+clj꞉clojure-noob.core꞉>
+#'clojure-noob.core/person
+clj꞉clojure-noob.core꞉>
+"Marko"
+clj꞉clojure-noob.core꞉>
+clojure_noob.core.User
+clj꞉clojure-noob.core꞉>
